@@ -1,12 +1,10 @@
 DESENVOLVIMENTO WEB AVANÇADO
 
-Nesta matéria vamos utilizar a linguagem: Python e o framework Flask; 
+-> Nesta matéria vamos utilizar a linguagem: Python e o framework Flask; 
+-> ORM - Mapeamento de Objeto Relacional: SQL Alquimi;
 
 ANOTAÇÕES E FORMAS DE AVALIAÇÃO 
 AULA 01 (09/10):
-
-    Python e Flask 
-    ORM - Mapeamento de Objeto Relacional: SQL Alquimi
 
     Avaliação:
         1- Programação ao vivo (vamos receber o pedido 48h antes) - (11 e 18/12)
