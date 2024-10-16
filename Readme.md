@@ -1,4 +1,4 @@
-DESENVOLVIMENTO WEB AVANÇADO
+FRAMEWORKS DESENVOLVIMENTO WEB
 
 -> Nesta matéria vamos utilizar a linguagem: Python e o framework Flask; 
 -> ORM - Mapeamento de Objeto Relacional: SQL Alquimi;
