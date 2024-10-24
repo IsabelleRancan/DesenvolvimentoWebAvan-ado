@@ -3,8 +3,8 @@ FRAMEWORKS DESENVOLVIMENTO WEB
 -> Nesta matéria vamos utilizar a linguagem: Python e o framework Flask; 
 -> ORM - Mapeamento de Objeto Relacional: SQLAlchemy;
 
-ANOTAÇÕES E FORMAS DE AVALIAÇÃO 
 AULA 01 (09/10):
+ANOTAÇÕES E FORMAS DE AVALIAÇÃO 
 
     Avaliação:
         1- Programação ao vivo (vamos receber o pedido 48h antes) - (11 e 18/12)
@@ -40,3 +40,41 @@ AULA 01 (09/10):
         Nunca colocar código dentro da pasta do ambiente virtual;
 
     Aplicações WEB e não locais; 
+
+AULA 2 (23/10):
+CRIANDO UM AMBINETE VIRTUAL EM PYTHON:
+
+    Passo a passo:
+        - Criando o ambiente dentro do terminal do VSCode: python -m venv nome_do_ambiente
+        - Autorizar a criação dos ambinetes (dentro do powershell) - necessário apenas 1 vez: 
+            Get-ExecutionPolicy
+            Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
+        - Ativando o ambiente: nome_do_ambiente\Scripts\activate
+
+        Para acessar venv depois de criado: 
+        - Acessando o caminho: cd D:\Documentos Usuário\Documents\GitHub\FrameworksDesenvolvimentoWeb\projeto01
+        - Ativando: ambiente1.venv\Scripts\activate
+        - Desativando: deactivate
+
+    Instalando dependencias:
+        pip install nome_pacote
+        pip list - exibe todos os pacotes instalados
+    -> O que instalamos nessa primeira aula:
+            flask
+            flask sqlalchemy
+            numpy - serve para manipular arrays, matrizes etc, é mais rápido que laços de repetição
+    -> pypi - site que tem campo de busca de pacotes e como instalar.
+
+    INSTALAMOS E RODAMOS BIBLIOTECAS SEMPRE DENTRO DO AMBIENTE VIRTUAL
+
+    -> Nesta aula criamos as pastas: templates, static e pastas adjacentes. Além disso, o arquivo app.py - app.py é o arquivo principal que vamos utilizar;
+    -> Utilizamos a barra de progresso e o tempo.
+
+    * As aulas vão começar com uma lista de atividades, depois conceitos que vamos utilizar pra fazer essas atividades.
+
+* PADÕRES DE ARQUIVO E ORGANIZAÇÃO DE CÓDIGO:
+    - Frameworks trabalham com padrão;
+    - Os arquivos html devem estar na pasta templates nessa primeira parte;
+    - CÓDIGO LIMPO! ZERO COMENTÁRIOS E NOMES RELEVANTES; 
+    - NOMES TODOS EM INGLÊS, NADA EM PORTUGUÊS - classes, variáveis, nomes, arquivos;
+    - Variáveis snakecase (padrão da linguagem), nada de acentos ou caracteres especiais.
