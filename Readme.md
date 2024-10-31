@@ -78,3 +78,47 @@ CRIANDO UM AMBINETE VIRTUAL EM PYTHON:
     - CÓDIGO LIMPO! ZERO COMENTÁRIOS E NOMES RELEVANTES; 
     - NOMES TODOS EM INGLÊS, NADA EM PORTUGUÊS - classes, variáveis, nomes, arquivos;
     - Variáveis snakecase (padrão da linguagem), nada de acentos ou caracteres especiais.
+
+AULA 03 (30/10):
+CRIANDO UM NOVO AMBIENTE VIRTUAL E DESENVOLVENDO CÓDIGOS:
+
+    Sempre importar o Flask no começo: from flask import Flask
+
+    -> TODA requisição web trabalha com RR (request and response)
+    -> No ambiente web, ele funciona com requisições reativas pois só faz coisas se alguém pede
+    -> O Flask permite com que o código Python fique escutando e esperando uma requisição, primeiro a 
+    requisição chega no flask, chega no python e o python devolve a requisição 
+
+        A primeira coisa a se fazer é criar a sua aplicação - ela vai ser do tipo flask para rodar aplicações web 
+
+        A variável web pode ter qualquer nome, mas geralmente se usa app mesmo
+
+            app.run(debug=True) - vai atualizar automáticamente o servidor
+            para mudar a porta em que a aplicaçãoestá rodando: app.run(debug=True, port 'xxxx')
+            isso vai disponibilizar a aplicação para todo mundo que estiver conectado na mesma rede que eu = app.run(debug=True, port 'xxxx', host = '0.0.0.0)
+            
+            Para a aplicação ser reativa, nós criamos as rotas, mas para isso, nós precisamos ter alguma função
+
+           @app.route('/contact')
+            def contact():
+                return 'This is the user page'
+
+            -> essa é a forma de criar diferentes páginas 
+
+            criamos um novo app.py
+            criamos páginsas para ele 
+            aprendemos usar o HTML para usar no python
+        
+    1 - Crie uma rota para uma página web com a tag *canvas* que permite ao usuário deslocar uma fotografia para a direita e esquerda com as setinhas do teclado (rota:atividade 1)
+
+    2 - Crie uma rota para a atividade 2 que permita ao usuário capturar uma fotografia pela webcam e mostrar na tela
+
+    3 - Crie uma rota para a atividade 3 com a python app que exiba uma tabela (sem usar table) com 997 linhas e 5 colunas: nas colunas id, nome, sobre nome, email, ações.
+
+    4 - Criar uma rota com 3 links, um para cada uma das atividades anteriores, porém todas elas bonitas
+
+    5 - Criar 6 rotas, sendo cada uma estilizada, bonita e etc. Sendo que em cada rota deve conter o curriculo de um integrante do grupo. 
+
+    TODOS ESSES PROJETOS DEVEM ESTAR EM UM PROJETO SÓ - DATA DE ENTREGA 05/11
+
+    * Variável especial em python em que o nome da variável e o seu valor é a mesma coisa * pesquisar como isso funciona 
