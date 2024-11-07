@@ -122,3 +122,17 @@ CRIANDO UM NOVO AMBIENTE VIRTUAL E DESENVOLVENDO CÓDIGOS:
     TODOS ESSES PROJETOS DEVEM ESTAR EM UM PROJETO SÓ - DATA DE ENTREGA 05/11
 
     * Variável especial em python em que o nome da variável e o seu valor é a mesma coisa * pesquisar como isso funciona 
+
+AULA 04 (06/11):
+
+    render_template('index.html', nome = nome) - passando parâmetros de app para template
+
+    1 - Considerando um usuário e uma senha mocados (dados fictícios) faça uma página de autenticação que retorne uma mensagem caso a autenticação funcionar (bom dia, tarde, noite a depender do horário), se não, diz que o login não bateu; - id "user" "key"
+
+    2 - Limite as tentativas de autenticação do usuário em 2x, se ele errar duas vezes, tirar a opção de login e exibir uma mensagem de erro; - deixar uma div vazia com uma classe de resposta dentro
+
+    3 - Estilizar de forma bonita a página de identificação; - colocar tudo dentro de uma div com class = container - estilizar o que está dentro
+
+    4 - Escreva um script python que gere automáticamente um template HTML contendo um formulário para input de dados com os campos que serão recebidos por JSON; - gerar o html e o formulário e a outra parte recebe o JSON, trata ele e devolve como uma lista de strings
+
+    5 - Incremente o script 4 para que após gerar o template, ele construa automáticamente uma rota que permita visualizar o template. - 
