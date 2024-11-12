@@ -136,3 +136,5 @@ AULA 04 (06/11):
     4 - Escreva um script python que gere automáticamente um template HTML contendo um formulário para input de dados com os campos que serão recebidos por JSON; - gerar o html e o formulário e a outra parte recebe o JSON, trata ele e devolve como uma lista de strings
 
     5 - Incremente o script 4 para que após gerar o template, ele construa automáticamente uma rota que permita visualizar o template. - 
+
+    6 - Criar uma classe em python que encapsula dados de usuário entre 5 e 6 campos, e desenvolva uma função de autenticação (valida dados, criar uma sessão para guardar e autenticação)
