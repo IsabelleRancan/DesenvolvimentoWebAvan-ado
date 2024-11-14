@@ -138,3 +138,39 @@ AULA 04 (06/11):
     5 - Incremente o script 4 para que após gerar o template, ele construa automáticamente uma rota que permita visualizar o template. - 
 
     6 - Criar uma classe em python que encapsula dados de usuário entre 5 e 6 campos, e desenvolva uma função de autenticação (valida dados, criar uma sessão para guardar e autenticação)
+
+AULA 05 (13/11):
+REGRAS BÁSICAS PARA DESENVOLVIMENTO
+
+    1ª
+        - Não confie nos dados que chegam da requisição;
+        - Validar todos os dados, essa validação depende do que se espara de cada tipo de dado(ex: texto, número, etc);
+    2ª
+        - Garantir integridade e consistencia dos dados. Garantir que o que vc recebei vai servir pra calcular o que precisa e poder guardar para que seja possível recuperar se necessário;
+        - Usamos armazenamento persistente para preservar esses dados pois a persistencia garante a durabilidade e a persistência;
+    3ª
+        - Ou se trabalha de forma assincrona ou síncrona, se for de forma síncrona, vc deve devolvar a resposta em tempo habil;
+        - Geralmente em desenvolvimento web, se usa sempre a forma síncrona;
+    4ª
+        - Tratar as exeções, não deixe o backend morrer; 
+
+    Em python validamos coisas através de estrutura de seleção (o que conhecemos como estruturas condicionais, porém não podemos chamar de condicional pois essas estruturas serão usadas para selecionar)
+
+    -> Validar os dados, tratar as exeções, depois persistimos em sistemas de banco de dados. 
+    -> Vamos utilizar sqlligth
+
+    criar um formulário com os campos: nome, senha 
+    autenticar e retornar uma mensagem pra ver se está funcionando
+    criar uma segunda rota que renderiza o formulário
+    /autenticate -> vai pra tela depois que o usuário enviar 
+
+    se n colocar nada na barra, por padrão é GET
+
+    TAREFAS: 
+
+    -> colocar os dados do usuário mokados para fazer essa validação para a próxima aula <-
+    1 - Fazer todas as *validações possiveis para garantiar que as informações foram enviadas corretamente pelo usuário;
+    2 - Tratar *exceções para evitar que seja exibida a mensagem de erro padrão
+    3 - Garantir que o usuário seja redirecionado com a possibilidade de fazer a autenticação novamente quando um dos dados estiver incorreto 
+    4 - Limitar em duas tentativas de autenticação errada**
+    5 - Alterar todos os retornos usando dados formatados em json (conjunto chave:valor)
