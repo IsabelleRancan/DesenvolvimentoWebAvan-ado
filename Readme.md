@@ -174,3 +174,8 @@ REGRAS BÁSICAS PARA DESENVOLVIMENTO
     3 - Garantir que o usuário seja redirecionado com a possibilidade de fazer a autenticação novamente quando um dos dados estiver incorreto 
     4 - Limitar em duas tentativas de autenticação errada**
     5 - Alterar todos os retornos usando dados formatados em json (conjunto chave:valor)
+
+AULA 06 (27/11):
+APRESENTAÇÃO DOS PROTÓTIPOS DO PROJETO FINAL:
+
+    Três grupos apresentaram protótipos e objetivos do projeto final.
